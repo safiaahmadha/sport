@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "liberation_sansregular";
+  src: url("./font/liberationsans-regular-webfont-webfont.woff2")
+      format("woff2"),
+    url("./font/liberationsans-regular-webfont-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "liberation_sansbold";
+  src: url("./font/liberationsans-bold-webfont-webfont.woff2") format("woff2"),
+    url("./font/liberationsans-bold-webfont-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "liberation_sansregular";
+}
+.sports-header,
+.sports-catalogue {
+  background-image: url("../fwdimages/background.jpg");
+}
+.sports-main {
+  background-color: #2b2b2b;
+}
+.sports-footer {
+  background-color: #373737;
+  color: #ffffff;
+}
+.sports-menu label {
+  font-weight: 400;
+  margin-left: 10px;
+}
+.color-orange {
+  color: #ea9f1c;
+}
+.catalogue-container {
+  width: 85%;
+  margin: 0px auto;
+}
+.font-bold {
+  font-family: "liberation_sansbold";
+}
+.catalogue-container .card-footer .price {
+  font-size: 28px;
+  font-weight: 500;
+  font-family: "liberation_sansbold";
+}
+.sports-border-bottom {
+  border-bottom: 5px solid #ffffff50;
+}
+.footer-menu label {
+  margin-right: 10px;
+}
+.footer-menu {
+  background: #ffffff;
+  color: #333;
+  width: 50%;
+  text-align: center;
+  margin: 0px auto;
+  border-radius: 5px;
+}
+
+.sports-border-bottom {
+  line-height: 17px;
+}
+.social-media img {
+  margin: 40px;
+}
+.circle {
+  width: 10px;
+  height: 10px;
+  background: #808080;
+  display: inline-block;
+  border-radius: 50%;
+}
+.price-discount {
+  background: #2b2b2b;
+  position: absolute;
+  color: #ea9f1c;
+  border-radius: 11px;
+  padding: 5px 18px;
+  right: -60px;
+  top: 20px;
+  font-weight: 500;
+  font-family: "liberation_sansbold";
+  font-size: 30px;
+}
+@media only screen and (max-width: 576px) {
+  .logo {
+    text-align: center;
+  }
+  header .text-right {
+    text-align: left !important;
+  }
+  .sports-menu {
+    padding: 0px !important;
+  }
+  .sports-menu label {
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+  .card-deck .card {
+    flex: auto;
+    margin: 0px !important;
+    margin-top: 60px !important;
+  }
+  footer.sports-footer .col-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .footer-menu {
+    width: 90%;
+  }
+  .catalogue-container {
+    width: 65%;
+    margin: 0px auto;
+  }
+}
